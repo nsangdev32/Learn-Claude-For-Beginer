@@ -1,0 +1,28 @@
+# Cấu hình cá nhân, không chia sẻ
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Bí mật
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Hệ điều hành / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
